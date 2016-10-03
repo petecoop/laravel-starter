@@ -167,7 +167,7 @@ return [
          * Package Service Providers...
          */
 
-        //
+        GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
 
         /*
          * Application Service Providers...
