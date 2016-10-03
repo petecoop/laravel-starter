@@ -4,7 +4,12 @@
 
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - [Vagrant](https://www.vagrantup.com/downloads.html)
-- PHP [Windows Install](http://windows.php.net/download/), for Mac use HomeBrew [instructions](#mac-php-install)
+- PHP
+  - [Windows Install](http://windows.php.net/download/)
+  - Mac Install:
+    - Install [HomeBrew](http://brew.sh/) (it's amazing)
+    - `brew tap homebrew/homebrew-php`
+    - `brew install php70`
 - [Composer](https://getcomposer.org/)
 
 ## Setup
@@ -30,8 +35,6 @@ These commands must be ran in your project folder:
 - `vagrant destroy` to delete the VM and all of it's data
 - `vagrant ssh` to ssh into the VM
 
-## Mac PHP Install
+## Bugs? Questions?
 
-- Install [HomeBrew](http://brew.sh/)
-- `brew tap homebrew/homebrew-php`
-- `brew install php70`
+[Open an issue](https://github.com/petecoop/laravel-starter/issues) and let me know!
