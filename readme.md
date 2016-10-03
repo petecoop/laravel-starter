@@ -1,16 +1,19 @@
 # Laravel starter
 
-## Requirements
+### Requirements
 
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - [Vagrant](https://www.vagrantup.com/downloads.html)
 - PHP [Windows Install](http://windows.php.net/download/), for Mac use HomeBrew [instructions](#mac-php-install)
 - [Composer](https://getcomposer.org/)
 
+## Setup
+
 - Clone or download the zip of this repo
 - Rename the folder to the name of your project
 - Run `composer install`
 - Run `php vendor/bin/homestead make`
+- Create a `.env` file, copy the contents from `.env.example`
 - Download the laravel homestead box (1.2GB) run: `vagrant box add laravel/homestead`
 - Run: `vagrant up` - this will create and start the VM
 - Navigate to http://localhost:8000, you should see the Laravel welcome screen
