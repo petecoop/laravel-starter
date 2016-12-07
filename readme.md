@@ -17,7 +17,7 @@
 - Clone or download the zip of this repo
 - Rename the folder to the name of your project
 - Run `composer install`
-- Run `php vendor/bin/homestead make`
+- Run `vendor/bin/homestead make`
 - Create a `.env` file, copy the contents from `.env.example`
 - Download the laravel homestead box (1.2GB) run: `vagrant box add laravel/homestead`
 - Run: `vagrant up` - this will create and start the VM
